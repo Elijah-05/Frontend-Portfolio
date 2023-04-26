@@ -10,7 +10,7 @@ export default function Nav() {
     }
 
     return(
-        <header className='px-2 bg-primaryColor py-3 sm:sticky sm:top-0 z-999  shadow-lg'>
+        <header className='px-2 bg-primaryColor py-3 sm:sticky sm:top-0 z-[999]  shadow-lg'>
             <nav className='max-w-5xl mx-auto lg:px-0 md:px-14 sm:px-4 flex items-center justify-between'>
                 <div className=''><a href='#banner'><img className='w-10 hover:scale-105 hover:shadow-lg' src={logo} alt="logo"></img></a></div>
                 <ul id='list' className='hidden sm:flex text-white mt-1 duration-500'>
